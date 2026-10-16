@@ -35,3 +35,4 @@ def test_a_column_of_only_missing_values():
 
     assert summary["n"] == 0
     assert summary["mean"] == 0.0
+    assert nan == 0.0
