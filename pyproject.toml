@@ -53,3 +53,6 @@ source = ["ci_course"]
 
 [tool.setuptools.package-data]
 ci_course = ["data/*.csv"]
+
+[tool.coverage.run]
+branch = true
