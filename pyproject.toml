@@ -37,6 +37,9 @@ line-length = 120
 [tool.ruff.lint]
 select = ["E", "F", "W", "B"]
 
+[tool.ruff.lint.pydocstyle]
+convention = "numpy"
+
 # The docstring rules are deliberately not selected here. The Docstrings
 # workflow runs them separately, with "ruff check --select D src/", so that
 # documentation is a stage of its own rather than more lint noise. The
