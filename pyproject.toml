@@ -45,8 +45,7 @@ convention = "numpy"
 # documentation is a stage of its own rather than more lint noise. The
 # convention below is what makes the full D set usable: it disables the rules
 # that contradict numpydoc, which is the style this package is written in.
-[tool.ruff.lint.pydocstyle]
-convention = "numpy"
+
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
